@@ -5,21 +5,21 @@ document.getElementById('show-text').addEventListener('click', ShowText)
 document.getElementById('background-color').addEventListener('click', ChangeBackgroundColor)
 
 function ChangeImage () {
-  document.getElementById("Image").src = "./images/wolf-two.jpg"
+  document.getElementById('image').src = './images/wolf-two.jpg'
 }
 
 function ChangeText () {
-  document.getElementById("text").innerHTML = "This is property of Andrea.B.Odumodu"
+  document.getElementById('text').innerHTML = 'This is property of Andrea.B.Odumodu'
 }
 
 function HideText () {
-  document.getElementById("text").style.display = "none"
+  document.getElementById('text').style.display = 'none'
 }
 
 function ShowText () {
-  document.getElementById("text").style.display = "block"
+  document.getElementById('text').style.display = 'block'
 }
 
 function ChangeBackgroundColor () {
-  document.body.style.backgroundColor = "blue"
+  document.body.style.backgroundColor = 'blue'
 }
